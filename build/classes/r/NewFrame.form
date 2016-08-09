@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.2" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.FrameFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="cc" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="exitForm"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-96,0,0,2,103"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+    <Property name="columns" type="int" value="2"/>
+    <Property name="horizontalGap" type="int" value="50"/>
+    <Property name="rows" type="int" value="11"/>
+    <Property name="verticalGap" type="int" value="10"/>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CustomerId/billno"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_billbo">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="Customername" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="var_billboActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CustomerName"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_custname">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="CustomerName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CustomerAddress"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_custaddress">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="CustomerAddress" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="var_custaddressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="Dateoforder" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="Dateoforder"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="var_dateoforder">
+    </Component>
+    <Component class="java.awt.Label" name="label5">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="Dateofissue" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="dateofissue"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="var_dateofissue">
+    </Component>
+    <Component class="java.awt.Label" name="label6">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="idoldescription" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="idoldescription"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_idoldescription">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="idolid" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label8">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="idolammountpaid" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="idolammountpaid"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_ammountpaid">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="ammountgiven" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label9">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="idoltotalammount" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="idoltotalammount"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_idoltotalammount">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="idoltotalammount" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CustomerContact"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="var_custcontactno">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="CustomerContact" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="add Entry"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="button1MouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
