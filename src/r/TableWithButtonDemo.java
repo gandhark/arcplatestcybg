@@ -122,10 +122,11 @@ public class TableWithButtonDemo
     }
      columnNames.add("Balance_Ammount");
     // data of the table
+     Object value=null;
     Vector<Vector<Object>> data = new Vector<Vector<Object>>();
     while (rs.next()) {
        int kk=0;
-       Object value;
+       
        Object value1=0;
        Object value2=0;
        
@@ -153,8 +154,8 @@ public class TableWithButtonDemo
             }
             
             
-            //value=(int)value2 - (int)value1;
-            //System.err.println("balance is "+value);
+            value=(int)value2 - (int)value1;
+            System.out.println("balance is "+value);
         }
         
         
@@ -170,7 +171,7 @@ public class TableWithButtonDemo
         
         
         
-        vector.add("ef");
+        vector.add(value);
         data.add(vector);
     }
 
@@ -296,27 +297,6 @@ public class TableWithButtonDemo
 			// execute update SQL stetement
 			preparedStatement.executeUpdate();
 
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
               
               
               JOptionPane.showMessageDialog(button, "Column with Value: "+table.getValueAt(row, 1) + " -  Clicked!");
